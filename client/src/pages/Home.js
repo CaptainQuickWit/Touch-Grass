@@ -36,11 +36,11 @@ function Home() {
                   <div className="col-lg-5">
                       <h1 className="font-weight-light">Touch-Grass</h1>
                     <p>
-                          Welcome to Touch Grass! This site is currently under construction and we are plannning on bringing this project to life as soon
-                          as possible! We just need to hit our goal of 1k to bring this app into production if you contribute today click the link below!
+                          Welcome to Touch Grass! This web application is a game that give's user's a random location to go, just like pokemon go, to get people to meet up.
+                          
                     </p>
 
-                      <a href={url}>Donate Today!  </a>
+                      
               </div>                      
             </div>
       </div>
