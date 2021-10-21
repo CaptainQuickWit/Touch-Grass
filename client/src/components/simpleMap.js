@@ -8,8 +8,7 @@ import { useState, useEffect } from 'react';
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
-const GMAP_API_KEY = process.env.GMAP_API_KEY
-
+const GMAP_API_KEY = process.env.GMAP_API_KEY || "AIzaSyABg-YQdsHaUcYM69z6gW0gni4OIh0SIuQ";
 
 
 function SimpleMap(props) {
