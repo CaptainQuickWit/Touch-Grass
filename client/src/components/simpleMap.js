@@ -8,7 +8,7 @@ import { useState, useEffect } from 'react';
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
-const GMAP_API_KEY = "AIzaSyBwVvRwK_cLlFxO0bdGe8m7d16unPAwLcQ"
+const GMAP_API_KEY = process.env.GMAP_API_KEY;
 
 function SimpleMap(props) {
 
@@ -16,7 +16,7 @@ function SimpleMap(props) {
 
         return (
             <GoogleMapReact
-                bootstrapURLKeys={{ key: GMAP_API_KEY }}
+                bootstrapURLKeys={{ key: process.env.GMAP_API_KEY }}
                 defaultCenter={props.center}
                 defaultZoom={11} >
                 <AnyReactComponent
